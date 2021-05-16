@@ -7,14 +7,14 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: 胡伟康
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://github.com/sixofspace/
-root: /weikang.github.io
+root: /sixofspace
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -104,5 +104,5 @@ theme: 3-hexo
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/sixofspace/weikang.github.io
+  repository: https://github.com/sixofspace/sixofspace
   branch: gh-pages
