@@ -14,7 +14,7 @@
 <meta property="og:description" content="暂无">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-05-16T03:41:03.000Z">
-<meta property="article:modified_time" content="2021-05-16T03:41:41.104Z">
+<meta property="article:modified_time" content="2021-05-19T01:50:29.696Z">
 <meta property="article:author" content="胡伟康">
 <meta name="twitter:card" content="summary">
 
@@ -22,6 +22,8 @@
 <link rel="icon" href="/img/avatar.jpg">
 
 <link href="/sixofspace/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/sixofspace/css/hl_theme/atom-light.css?v=1.1.0" rel="stylesheet">
 
 <link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
 
@@ -47,7 +49,7 @@
   <input class="theme_preload_comment" value="">
   <input class="theme_blog_path" value="/sixofspace">
   <input id="theme_shortcut" value="true" />
-  <input id="theme_highlight_on" value="false" />
+  <input id="theme_highlight_on" value="true" />
   <input id="theme_code_copy" value="true" />
 </div>
 
@@ -240,7 +242,7 @@
     <li>
         <div class="all active" data-rel="All">All
             
-                <small>(2)</small>
+                <small>(4)</small>
             
         </div>
     </li>
@@ -251,6 +253,20 @@
                     <div data-rel="工具">
                         
                         工具
+                        <small>(1)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="前端">
+                        
+                        前端
                         <small>(1)</small>
                         
                     </div>
@@ -279,7 +295,7 @@
         
     </div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="2">
+<input type="hidden" id="yelog_site_posts_number" value="4">
 
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
@@ -337,11 +353,27 @@
     <nav id="title-list-nav">
         
         <a  class="All "
-           href="/sixofspace/2021/05/15/hello-world/"
+           href="/sixofspace/2021/05/19/css%E5%9F%BA%E7%A1%80/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="css基础">css基础</span>
+            <span class="post-date" title="2021-05-19 10:22:37">2021/05/19</span>
+        </a>
+        
+        <a  class="All "
+           href="/sixofspace/2021/05/19/hello-world/"
            data-tag=""
            data-author="" >
             <span class="post-title" title="Hello World">Hello World</span>
-            <span class="post-date" title="2021-05-15 19:57:15">2021/05/15</span>
+            <span class="post-date" title="2021-05-19 09:50:29">2021/05/19</span>
+        </a>
+        
+        <a  class="All 前端 "
+           href="/sixofspace/2021/05/18/html%E5%9F%BA%E7%A1%80/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="html基础">html基础</span>
+            <span class="post-date" title="2021-05-18 17:23:44">2021/05/18</span>
         </a>
         
         <a  class="All 工具 "
@@ -373,7 +405,7 @@
         <article class="index">
             <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-Blog"><span class="toc-text">Why Blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-text">对博客的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E5%BA%A6%E7%A9%BA%E9%97%B4"><span class="toc-text">六度空间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0"><span class="toc-text">博客平台</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-Blog"><span class="toc-text">Why Blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-text">对博客的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E5%8F%B6%E8%90%BD%E9%98%81"><span class="toc-text">关于叶落阁</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0"><span class="toc-text">博客平台</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -398,10 +430,11 @@
 </blockquote>
 <p>我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。</p>
 <p>通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。</p>
-<h2 id="六度空间"><a href="#六度空间" class="headerlink" title="六度空间"></a>六度空间</h2><p><strong>六度空间</strong> 是阁主（胡伟康）的个人站。</p>
+<h2 id="关于叶落阁"><a href="#关于叶落阁" class="headerlink" title="关于叶落阁"></a>关于叶落阁</h2><p><strong>叶落阁</strong> 是阁主（杨玉杰）的个人站。</p>
 <p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
 <p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> 生成，部署在 <a target="_blank" rel="noopener" href="https://pages.github.com/">GitHub Pages</a>主题 </p>
+<h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> 生成，部署在 <a target="_blank" rel="noopener" href="https://pages.github.com/">GitHub Pages</a>主题 <a href="https://github.com/yelog/hexo-theme-3-hexo">3-hexo</a> 已经在github上开源</p>
+<p><code>3-hexo</code> 主题使用交流可以加 Q群: <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=e8cf083cc097141eaf323396f1766809b8e90ff00c67bb441898f672892f6904"><img data-ignore border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="3-hexo使用交流" title="3-hexo使用交流"></a></p>
 <p>主要功能：</p>
 <ul>
 <li>搜索支持文章标题、标签(#标签)、作者(@作者)</li>
@@ -416,27 +449,6 @@
         </p>
         
         
-    <div id="comments"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-
-<script type="text/javascript">
-    $.getScript('/sixofspace/js/gitalk.js', function () {
-        var gitalk = new Gitalk({
-            clientID: '0cf32d167b5321e75702',
-            clientSecret: '1ce08084cf3b41f98cec10d22dd50522df16b286',
-            repo: 'weikang.github.io',
-            owner: 'sixofspace',
-            admin: ['sixofspace'],
-            id: decodeURI(location.pathname),
-            distractionFreeMode: 'true',
-            language: 'zh-CN',
-            perPage: parseInt('10',10)
-        })
-        gitalk.render('comments')
-    })
-</script>
-
-
     </div>
     <div class="copyright">
         <p class="footer-entry">
@@ -606,35 +618,5 @@
 
 
 
-<div id="musicMouseDrag" style="position:fixed; z-index: 9999; bottom: 0; right: 0;">
-    <div id="musicDragArea" style="position: absolute; top: 0; left: 0; width: 100%;height: 10px;cursor: move; z-index: 10;"></div>
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1475596788&auto=1&height=66"></iframe>
-</div>
-<script>
-    var $DOC = $(document)
-    $('#musicMouseDrag').on('mousedown', function (e) {
-      // 阻止文本选中
-      $DOC.bind("selectstart", function () {
-        return false;
-      });
-      $('#musicDragArea').css('height', '100%');
-      var $moveTarget = $('#musicMouseDrag');
-      $moveTarget.css('border', '1px dashed grey')
-      var div_x = e.pageX - $moveTarget.offset().left;
-      var div_y = e.pageY - $moveTarget.offset().top;
-      $DOC.on('mousemove', function (e) {
-        var targetX = e.pageX - div_x;
-        var targetY = e.pageY - div_y;
-        targetX = targetX < 0 ? 0 : (targetX + $moveTarget.outerWidth() >= window.innerWidth) ? window.innerWidth - $moveTarget.outerWidth() : targetX;
-        targetY = targetY < 0 ? 0 : (targetY + $moveTarget.outerHeight() >= window.innerHeight) ? window.innerHeight - $moveTarget.outerHeight() : targetY;
-        $moveTarget.css({'left': targetX + 'px', 'top': targetY + 'px', 'bottom': 'inherit', 'right': 'inherit'})
-      }).on('mouseup', function () {
-        $DOC.unbind("selectstart");
-        $DOC.off('mousemove')
-        $DOC.off('mouseup')
-        $moveTarget.css('border', 'none')
-        $('#musicDragArea').css('height', '10px');
-      })
-    })
-</script>
+
 </html>
