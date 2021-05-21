@@ -242,9 +242,9 @@ disqus:
 
 gitalk:
   githubID: sixofspace
-  repo: weikang.github.io
-  ClientID: 0cf32d167b5321e75702
-  ClientSecret: 1ce08084cf3b41f98cec10d22dd50522df16b286
+  repo: sixofspace.github.io
+  ClientID: e27200d7c451999c2c39
+  ClientSecret: ed5bb487dfeefcf6706378fe1acebbcdda58b207
   adminUser: sixofspace
   distractionFreeMode: true
   language: zh-CN
