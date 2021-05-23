@@ -242,12 +242,13 @@ disqus:
 
 gitalk:
   githubID: sixofspace
-  repo: sixofspace.github.io
-  ClientID: e27200d7c451999c2c39
-  ClientSecret: ed5bb487dfeefcf6706378fe1acebbcdda58b207
+  repo: sixofspace
+  ClientID: 2916f577943d47cd7124
+  ClientSecret: 6d8d380ed3b1c8c6b9e4ebabbb9bc94d9df32030
   adminUser: sixofspace
   distractionFreeMode: true
   language: zh-CN
+  proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
   perPage: 10
 # gitalk：利用github issue制作的第三方聊天插件
 # https://github.com/gitalk/gitalk

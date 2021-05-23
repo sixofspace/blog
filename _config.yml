@@ -104,5 +104,5 @@ theme: 3-hexo
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/sixofspace/sixofspace
+  repository: git@github.com:sixofspace/sixofspace.git
   branch: gh-pages
