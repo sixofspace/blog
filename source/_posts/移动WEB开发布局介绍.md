@@ -1,7 +1,10 @@
 ---
 title: 移动WEB开发布局介绍
 date: 2021-05-19 15:24:38
+categories:
+- 大前端
 tags:
+- web
 ---
 
 # 移动web开发流式布局

@@ -1,7 +1,10 @@
 ---
 title: js_web_api
 date: 2021-05-20 16:54:31
+categories:
+- 大前端
 tags:
+- JS
 ---
 
 # JS_Web APIs介绍
