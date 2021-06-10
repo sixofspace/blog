@@ -75,3 +75,8 @@ LeetCode 刷题必备
 
 Debug LeetCode  LeetCode debug好工具
 
+
+
+git历史记录查询
+
+Git history 和Gitlens,然后点击install
